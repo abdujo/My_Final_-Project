@@ -637,7 +637,7 @@ value__img {
 
 /* PRICING 
  */
-.section__plans {
+.plans {
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -675,6 +675,8 @@ value__img {
   background: #fff;
 }
 
+
+
 .plan__stripe {
   position: absolute;
   top: 0;
@@ -686,11 +688,9 @@ value__img {
 .plan:nth-child(1) .plan__stripe,
 .plan:nth-child(1) .plan__button {
   color: #f7fafc;
-  background: linear-gradient(
-    115deg,
-    rgb(56, 178, 172) 0%,
-    rgb(129, 230, 217) 100%
-  );
+  background: linear-gradient(115deg,
+      rgb(56, 178, 172) 0%,
+      rgb(129, 230, 217) 100%);
 }
 
 .plan__top,
@@ -806,21 +806,17 @@ plan__name {
 }
 
 .plan:nth-child(2) {
-  background: linear-gradient(
-    135deg,
-    rgb(76, 81, 191) 0%,
-    rgb(102, 126, 234) 100%
-  );
+  background: linear-gradient(135deg,
+      rgb(76, 81, 191) 0%,
+      rgb(102, 126, 234) 100%);
 }
 
 .plan:nth-child(3) .plan__stripe,
 .plan:nth-child(3) .plan__button {
   color: #f7fafc;
-  background: linear-gradient(
-    115deg,
-    rgb(245, 101, 101) 0%,
-    rgb(254, 178, 178) 100%
-  );
+  background: linear-gradient(115deg,
+      rgb(245, 101, 101) 0%,
+      rgb(254, 178, 178) 100%);
 }
 
 .plans__blob {
@@ -1417,7 +1413,6 @@ a {
     max-width: 448px;
   }
 
-  #steps .row,
   #testimonials .row {
     flex-direction: column;
     align-items: center;
